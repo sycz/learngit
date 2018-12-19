@@ -10,9 +10,9 @@ eureka:
       defaultZone: http://admin:admin@192.168.1.101:8761/eureka/
   instance:
     hostname: 192.168.1.101
-    ip-address: 192.168.1.101 #Ç¿ÖÆÖ¸¶¨IPµØÖ·£¬Ä¬ÈÏ»á»ñÈ¡±¾»úµÄIPµØÖ·
-    instance-id: ${spring.application.name}:${server.port} #·şÎñÖĞĞÄµÄĞÅÏ¢ÏÔÊ¾£¨Èç¹ûIPµØÖ·²»ÏÔÊ¾µÄ»°£¬½øĞĞÅäÖÃ£©
-    prefer-ip-address: true #ÒÔIPµØÖ·×¢²áµ½·şÎñÖĞĞÄ
+    ip-address: 192.168.1.101 #å¼ºåˆ¶æŒ‡å®šIPåœ°å€ï¼Œé»˜è®¤ä¼šè·å–æœ¬æœºçš„IPåœ°å€
+    instance-id: ${spring.application.name}:${server.port} #æœåŠ¡ä¸­å¿ƒçš„ä¿¡æ¯æ˜¾ç¤ºï¼ˆå¦‚æœIPåœ°å€ä¸æ˜¾ç¤ºçš„è¯ï¼Œè¿›è¡Œé…ç½®ï¼‰
+    prefer-ip-address: true #ä»¥IPåœ°å€æ³¨å†Œåˆ°æœåŠ¡ä¸­å¿ƒ
     
 zuul:
   routes:
