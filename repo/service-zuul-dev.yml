@@ -1,6 +1,13 @@
 server:
   port: 8790
+  tomcat:
+    uri-encoding: UTF-8
 spring:
+  http:
+    encoding:
+      force: true
+      charset: UTF-8 #Default: UTF-8
+      enabled: true #Default: true
   application:
     name: service-zuul
     
