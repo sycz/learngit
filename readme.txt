@@ -5,6 +5,6 @@ Git tracks changes of files.
 Creating a new branch is quick.
 Creating a new branch is quick AND simple.
 add merge
-tor1toisGit 
+tor1toisGit 1
 
 
